@@ -1,0 +1,39 @@
+# Environment & Virtualenvs
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Raw dataset CSV files
+data/*.csv
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+
+# OS & Editor specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Do NOT ignore essential project files and outputs
+!outputs/*.png
+!notebooks/
+!src/
+!models/
+!README.md
+!requirements.txt
