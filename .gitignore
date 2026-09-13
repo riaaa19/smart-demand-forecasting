@@ -14,8 +14,9 @@ __pycache__/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Raw dataset CSV files
+# Raw dataset CSV files & large generated outputs
 data/*.csv
+outputs/*.csv
 
 # Temporary files
 *.tmp
